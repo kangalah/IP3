@@ -31,16 +31,20 @@ p{
 }
 .center{
   text-align: center;
-  padding:7%;
+  padding:3%;
 }
 .column {
   float: left;
   width: 33%;
-  padding:5% ;
+  padding-left:5%;
+  
 }
 
 .row::after {
   content: "";
   clear: both;
   display: table;
+}
+h1{
+  text-align: center;
 }
