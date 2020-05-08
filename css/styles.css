@@ -47,7 +47,12 @@ p{
 }
 h1{
   text-align: center;
+  padding:20px;
+  margin:20px;
 }
 body{
-  font-family:  bree serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.column img{
+  align-items: center;
 }
