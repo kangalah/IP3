@@ -56,3 +56,11 @@ body{
   padding: 5%;
   margin-left: 20px;
 }
+.section-2{
+  background-image: url("../images/backgrounds/c_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  text-align: center;
+  color:white;
+}
