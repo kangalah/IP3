@@ -71,19 +71,29 @@
    </div>
    <div class="section-2">
        <h1>Contact Us.</h1>
-       <!-- <form>
-           <div class="form-control" id="name">
-           <label for="name" id="name"></label>
-           <input type="text" id="name">
-        </div>
-        <div class="form-control" id="email">
-           <label for="Email" id="email"></label>
-           <input type="email" id="email">
-        </div>
-        
-       </form> -->
+        <div id="after_submit"></div>
+        <form id="contact_form">
+          <div class="row">
+            <label class="required" for="name">Your name:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="email">Your email:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+            <span id="email_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="message">Your message:</label><br />
+            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+            <span id="message_validation" class="error_message"></span>
+          </div>
+            
+            <input id="submit_button" type="submit" value="Send email" />
+        </form>
 
    </div>
+   <footer>
    <div class="section-3">
        <img src="images/social_icons/behance.png">
        <img src="images/social_icons/dribble.png">
@@ -96,6 +106,7 @@
        <img src="images/social_icons/twitter.png">
        <img src="images/social_icons/you_tube.png">
    </div>
-
+   <br>
+</footer>
 </body>
 </html>
