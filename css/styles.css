@@ -67,3 +67,14 @@ padding:5%;
 #service{
   padding-bottom: 3%;
 }
+input[type="text"],textarea[type="text"],input[type="email"]{
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  font-family: 'Gugi', cursive;
+}
+/* .form-control::placeholder{
+  color: white;
+  opacity: 1;
+} */
