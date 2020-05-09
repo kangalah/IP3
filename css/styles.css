@@ -51,10 +51,11 @@ h1 > img{
 }
 .contact-us{
   background-image: url("../images/backgrounds/c_image.jpg");
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-position: cover;
   height: 360px;
-  text-align: center;
+  /* text-align: center; */
   color:white;
 }
 footer{
@@ -68,11 +69,11 @@ padding:5%;
   padding-bottom: 3%;
 }
 input[type="text"],textarea[type="text"],input[type="email"]{
-  outline: none;
+  /* outline: none; */
   background-color: transparent;
-  color: white;
+  /* color: white; */
   font-weight: 500;
-  font-family: 'Gugi', cursive;
+  font-family: 'corpse',serif;
 }
 /* .form-control::placeholder{
   color: white;
