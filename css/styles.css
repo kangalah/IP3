@@ -27,11 +27,7 @@ p{
   height: 300px;
   text-align: center;
   color:white;
-  padding: 17%;
-}
-.center{
-  text-align: center;
-  padding:3%;
+  /* padding: 17%; */
 }
 h1{
   text-align: center;
@@ -41,29 +37,33 @@ h1{
 body{
   font-family: Arial, Helvetica, sans-serif;
 }
-.column img{
-  align-items: center;
-}
-.container > h1 > img{
+h1 > img{
   padding-top:5%;
 }
-.row {
+.what-we-do {
   display: flex;
 }
 
-.column {
+.port {
   flex: 25%;
-  padding: 5%;
+  padding: 3%;
   margin-left: 20px;
 }
-.section-2{
+.contact-us{
   background-image: url("../images/backgrounds/c_image.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 360px;
   text-align: center;
   color:white;
 }
 footer{
   text-align: center;
+
+}
+/* .section-3{
+padding:5%;
+} */
+#service{
+  padding-bottom: 3%;
 }
