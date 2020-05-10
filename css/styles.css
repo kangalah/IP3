@@ -27,9 +27,9 @@
   padding-bottom: 30px; 
   /* animation-iteration-count: infinite; */
 }
-#mouse-click {
+/* #mouse-click {
   animation: bounce 1s infinite;
-}
+} */
 .about{
   text-align: center;
   padding-bottom: 30px;
@@ -185,7 +185,7 @@ footer p{
 
     /* margin-right: -20%; */
   }
-}
+
 @media only screen and (max-width: 425px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
     width: 100%;
@@ -221,7 +221,7 @@ footer p{
     margin-left: 4%;
     width: 84%;
   }
-}
+
 @media only screen and (min-width: 825px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
     width: 100%;
@@ -256,90 +256,8 @@ footer p{
     margin-left:6%;
     margin-right: 10%; 
   }
-}
-/* object-fit: cover;
-height: 500px; */
 
-/* h1{
-  text-align: center;
-}
-p{
-  text-align: center;
-/* } */
-/* .image{
-  text-align: center;
-}
-.services{
-  background-image: url("../images/backgrounds/s_image.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 300px;
-  text-align: center;
-  color:white;
-  /* padding: 17%; */
-/* }
-h1{
-  text-align: center;
-  padding:20px;
-  
-}
-body{
-  font-family: Arial, Helvetica, sans-serif;
-}
-h1 > img{
-  padding-top:5%;
-}
-.what-we-do {
-  display: flex;
-}
 
-.port {
-  flex: 25%;
-  padding: 3%;
-  margin-left: 20px;
-}
-.contact-us{
-  background-image: url("../images/backgrounds/c_image.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-position: cover;
-  height: 360px;
-  /* text-align: center; */
-  color:white;
-}
-footer{
-  text-align: center;
-
-} */ */ */
-/* .section-3{
-padding:5%;
-} */
-/* #service{
-  padding-bottom: 3%;
-}
-input[type="text"],textarea[type="text"],input[type="email"]{
-  /* outline: none; */
-  /* background-color: transparent;
-  /* color: white; */
-  /* font-weight: 500;
-  font-family: 'corpse',serif; */
-*/ */
-/* .form-control::placeholder{
-  color: white;
-  opacity: 1;
-} */
- 
-/* .landing{
-  background-image: url('../images/backgrounds/h_img.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  text-align: center;
-  padding-top:17%; 
-  font-family: 'Gabriela', serif;
-  /* padding-bottom:5%; */
-} */
 .landing h1{
   padding: 2px;
   margin: 5px;
@@ -363,7 +281,7 @@ input[type="text"],textarea[type="text"],input[type="email"]{
   animation: bounce 2s infinite;
 }
 
-@keyframes bounce {
+/* @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
@@ -373,7 +291,7 @@ input[type="text"],textarea[type="text"],input[type="email"]{
   60% {
     transform: translateY(-45px);
   }
-}
+} */
 
 .about{
   text-align: center;
