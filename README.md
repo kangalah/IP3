@@ -32,7 +32,7 @@ This is a project to recreate Delani studio which is a fictional studio.
 
 <h2>Support and contact details</h2>
 
-contact me  nanjalajoannyongesa@gmail.com
+contact me  *nanjalajoannyongesa@gmail.com*
 
 <h2>License</h2>
 MIT License
