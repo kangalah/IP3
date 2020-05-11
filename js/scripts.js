@@ -8,7 +8,7 @@
 
 $(document).ready(function(){
   $("#form").submit(function(event){
-    // event.preventDefault();
+    event.preventDefault();
     var name = $("input#b_name").val();
     var email = $("input#b_email").val();
     var message = $("textarea#b_comment").val();
