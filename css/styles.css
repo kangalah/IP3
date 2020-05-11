@@ -87,11 +87,8 @@ h4{
   margin-bottom: 60px;
   color: chartreuse;
   letter-spacing: 5px;
-
- 
 }
-
-  body{
+body{
       overflow-x: hidden;
   }
 
@@ -115,11 +112,11 @@ h4{
 #Contact-Us {
   background-image: url('../images/backgrounds/c_image.jpg');
   background-size:cover;
-  /* display: cover; */
+  display: cover;
   background-position: center center;
   padding: 10vh;
   color: white;
-  /* text-align: center; */
+  text-align: center;
   
 }
 input[type=text],input[type=email],#b_comment{
@@ -128,15 +125,8 @@ input[type=text],input[type=email],#b_comment{
   font-size: 20px;
   font-family: 'Copse', serif;
 }
-/* input[type="text"],textarea[type="text"],input[type="email"]{
-  outline: none;
-  background-color: transparent;
-  color: white;
-  font-weight: 500;
-  font-family: 'Gugi', cursive;
-} */
 
-/* input[type=text] {
+input[type=text] {
   background-color:transparent;
   color: white;
 }
@@ -147,7 +137,7 @@ textarea[type=text] {
 input[type=email] {
   background-color:transparent;
   color: white;
-} */
+}
 
 
 .submit{

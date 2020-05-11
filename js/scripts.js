@@ -2,22 +2,10 @@
     $(this).children('.hide').slideToggle(1300);
     $(this).children('.show').slidetoggle(1400);
   });
+  $(".card").hover(function () {
+    $(this).children(".card-1").fadeToggle(500);
+  });
 
-
-//     $(document).ready(function(){
-// $('.submit').click(function () {
-//   var name = $('input#b_name').val();
-//   var email = $('input#b_email').val();
-//   var message = $('textarea#b_comment').val();
-  
-//   if ('input#b_name' == '' || 'input#b_email' == '' || 'input#b_comment' == '') {
-//       alert('Please make sure you have filled in the form correctly!');
-//   } else {
-//       alert(' Hi ' + name + ' We have received your message. Thank you for reaching out to us.');
-//   }
-//   event.preventDefault ();
-// });
-// });
 $(document).ready(function(){
   $("#form").submit(function(event){
     // event.preventDefault();
