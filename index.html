@@ -10,7 +10,7 @@
   <title>Delani Studio</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <div class="intro">
       <br><br><br><br>
       <img src="images/logo/logo.png" alt="Delani's studio logo." class="Dlogo">
@@ -39,12 +39,13 @@
           <br><br><br><br>
     </div>
     <!-- what we do section -->
+    <div class="container-fluid">
     <div class="whatWeDo">
       <br>
         <h4 style="text-align: center;">WHAT WE DO</h4>
         <div class="row text-center">
           <div class="col-md-4 design">
-              <img src="images/services_icons/design_icon.png" alt="Delani's design icon." class="show">
+              <img src="images/services_icons/design_icon.png" alt="Delani's design icon." class="show img-fluid">
               <p>DESIGN</p>
             <div class="hide">
             <p> Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
@@ -58,8 +59,8 @@
             <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
             <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
           </div>
-          </div>
-          <div class="col-md-4 design">
+      </div>
+      <div class="col-md-4 design">
             <img src="images/services_icons/product_icon.png" alt="Delani's product." class="show">  
             <p>PRODUCT MANAGEMENT</p>
             <div class="hide">
@@ -67,65 +68,67 @@
                  <p>This iterative process allows for changes as business requirements evolve.</p>
           </div>
         </div>
-    </div>
+   </div>
   </div>
-  <!-- portfolio section -->
-    <div class="portfolio">
-        <h4 style="text-align: center;">PORTFOLIO</h4>
-        <div class="row">
-          <div class="col-sm-10 col-md-2 col-lg-3 portfolio-images" id="work1">
-              <img src="images/portfolio/work1.jpg" alt="Weather information image" width="100%">
-            <div class="Hover">
-             <p class="hover_designKenya">Weather Information</p>
-            </div>
+</div>
+   <!-- portfolio section -->
+        <div class="container" id="portfolio">
+          <h1 class="text-center">Portfolio</h1>
+          <div class="card-deck text-center">
+              <div class="card">
+                  <img src="./images/portfolio/work4.jpg" class="img-fluid" alt="">
+                  <div class="card-1">
+                      <p class="reveal font-weight-bold text-uppercase">Coders <br>Kenya</p>
+                  </div>
+              </div>
+              <div class="card ">
+                  <img src="./images/portfolio/work3.jpg" class="img-fluid" alt="">
+                  <div class="card-1">
+                      <p class="reveal font-weight-bold text-uppercase">Mighty<br>Ontario security</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="./images/portfolio/work2.jpg" class="img-fluid" alt="">
+                  <div class="card-1">
+                      <p class="reveal font-weight-bold text-uppercase">Join our events</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="./images/portfolio/work1.jpg" class="img-fluid" alt="">
+                  <div class="card-1">
+                      <p class="reveal font-weight-bold text-uppercase">Apps</p>
+                  </div>
+              </div>
           </div>
-          <div class="col-sm-10 col-md-4 col-lg-3 portfolio-images" id="work2">
-              <img src="images/portfolio/work2.jpg" alt="Design Kenya image" width="100%">
-            <div class="Hover">
-              <p class="hover_designKenya">Design Kenya Pyramids</p>
+          <div class="card-deck text-center">
+            <div class="card">
+                <img src="./images/portfolio/work5.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="reveal font-weight-bold text-uppercase">Coders <br>Kenya</p>
+                </div>
             </div>
-          </div>
-          <div class="col-sm-10 col-md-4 col-lg-3 portfolio-images" id="work3">
-              <img src="images/portfolio/work3.jpg" alt="Ontario Security image" width="100%">
-            <div class="Hover">
-              <p class="hover_designKenya">Ontario Security</p>
+            <div class="card ">
+                <img src="./images/portfolio/work6.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="reveal font-weight-bold text-uppercase">App buttons</p>
+                </div>
             </div>
-          </div>
-        <div class="col-sm-10 col-md-4 col-lg-3 portfolio-images " id="work4"> 
-              <img src="images/portfolio/work4.jpg" alt="Design image" width="100%">
-            <div class="Hover">
-              <p class="hover_designKenya">Design Kenya</p>
+            <div class="card">
+                <img src="./images/portfolio/work7.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="reveal font-weight-bold text-uppercase">Burned mockup logo</p>
+                </div>
             </div>
-          </div>
+            <div class="card">
+                <img src="./images/portfolio/work8.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="reveal font-weight-bold text-uppercase">Giraffe restaurant</p>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-sm-10 col-md-4 col-lg-3 portfolio-images" id="work5">
-              <img src="images/portfolio/work5.jpg" alt="Let's chat image" width="100%"> 
-            <div class="Hover">
-                <p class="hover_designKenya">Lets Chat</p>
-            </div> 
-          </div>
-          <div class="col-sm-10 col-md-4 col-lg-3 portfolio-images" id="work6">
-              <img src="images/portfolio/work6.jpg" alt="Mobile App buttons image" width="100%">
-            <div class="Hover">
-              <p class="hover_designKenya">Mobile App buttons</p>
-            </div>
-          </div>
-          <div class="col-sm-8 col-md-4 col-lg-3 portfolio-images" id="work7">
-              <img src="images/portfolio/work7.jpg" alt="Mock-up Kenya_burned logo" width="100%">
-            <div class="Hover">
-              <p class="hover_designKenya">Burned logo mock-up</p>
-            </div>
-          </div>
-          <div class="col-sm-8 col-md-4 col-lg-3 portfolio-images" id="work8">
-              <img src="images/portfolio/work8.jpg" alt="Giraffe restaurant" width="100%">
-            <div class="Hover">
-              <p class="hover_designKenya">Giraffe restaurant</p>
-            </div>
-          </div>
         </div>
-      </div>
       <!-- contact-us section -->
+
     <div class="Contact-Us">
       <h4 style="text-align: center; color:white">CONTACT US</h4>
          <form action="https://gmail.us4.list-manage.com/subscribe/post?u=c40818488e702cd7135824a2b&amp;id=9e32737afc" method="post" id="mc-embedded-subscribe-form contact" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -178,7 +181,9 @@
       <p>DELANI STUDIO<br>2020</p>
     </div>
   </div>
-  <script src="js/jquery-3.5.1.js"></script>
+</div>
+  <script src="./js/jquery-3.5.1.js"></script>
+  <script src="./js/scripts.js"></script>
 
   <!-- <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
   <script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"794be1d404a800eb5382e4a43","lid":"2260b3c9d6","uniqueMethods":true}) })</script> -->
