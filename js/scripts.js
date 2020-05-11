@@ -1,10 +1,13 @@
 
-// $(document).ready(function() {
+  $('.design').click(function () {
+    $(this).children('.hide').slideToggle(1300);
+    $(this).children('.show').slidetoggle(1400);
+  });
 
-  // $(".design").click(function () {
-  //   $(this).children('.hide').slidetoggle(1200);
-  //   $(this).children('.show').toggle(1500);
-  // });
+  // portfolio
+  $(".card").hover(function () {
+    $(this).children(".card-1").fadeToggle(1000, "linear");
+  });
 
 //   $("button").click(function (event) {
 //   var client = document.getElementById('nameDetail').value;
@@ -12,32 +15,21 @@
 //   event.preventDefault();
 
 // });
-$(document).ready(function(){
-  $(".design").click(function() {
-  $(".hide").toggle(500);
-  $(".show").toggle(500);
-  });
-  $(".design").click(function() {
-  $(".show").toggle(500);
-  $(".hide").toggle(500);
-  });
-  $(".design").click(function() {
-  $(".show").toggle(500);
-  $(".hide").toggle(500);
-  });
-  $(".design").click(function() {
-  $(".show").toggle(500);
-  $(".hide").toggle(500);
-  });
-  $(".design3").click(function() {
-  $(".design3").toggle(500);
-  $(".details3").toggle(500);
-  });
-  $(".details3").click(function() {
-  $(".details3").toggle(500);
-  $(".design3").toggle(500);
-  });
-  }); 
+// $(document).ready(function(){
+//   $(".design").click(function() {
+//   $(".hide").toggle(500);
+//   $(".show").toggle(500);
+//   });
+//   $(".design").click(function() {
+//   $(".show").toggle(500);
+//   $(".hide").toggle(500);
+//   });
+//   $(".design").click(function() {
+//   $(".show").toggle(500);
+//   $(".hide").toggle(500);
+//   });
+//   });
+  // }); 
 // $('.submit').click(function () {
 //   var Name = $('#mce-FNAME').val();
 //   var Email = $('#mce-EMAIL').val();
@@ -55,9 +47,9 @@ $(document).ready(function(){
 // function(){
 //   $(this).animate({opacity:'0'});
 // })
-  $("#work1").hover(function () {
-    $(this).children(".Hover").fadeToggle(1000);
-  });
+  // $(".portfolio-images").hover(function () {
+  //    $(this).children(".Hover").fadeToggle(1000);
+  // });
   // $("button").on('click', function () {
   //   $('form').each(function () {
   //     this.reset();
